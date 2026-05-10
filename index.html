@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="SevkQR Pro, demir çelik sektörü için İDİS portalı ile entegre çalışan PDF irsaliye ve karekod otomasyon yazılımıdır." />
-  <title>SevkQR Pro | İDİS Otomasyon Yazılımı</title>
+  <meta name="description" content="SevkQR Pro, demir çelik sektörü için İDİS portalında mal kabul, mal çıkış ve transit işlemlerini kendi bilgisayarınızdan otomatik yürüten masaüstü operasyon yazılımıdır." />
+  <title>SevkQR Pro | İDİS Operasyon Yönetimi</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -35,7 +35,8 @@
             }
           },
           boxShadow: {
-            soft: '0 18px 45px rgba(9, 27, 58, 0.10)'
+            soft: '0 18px 45px rgba(9, 27, 58, 0.10)',
+            glow: '0 18px 55px rgba(16, 185, 129, 0.22)'
           }
         }
       }
@@ -55,14 +56,15 @@
       box-shadow: 0 22px 70px rgba(0,0,0,.18);
       backdrop-filter: blur(16px);
     }
+    .logo-mark { object-fit: contain; }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased">
   <header class="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-navy-950/90 backdrop-blur">
     <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8" aria-label="Ana menü">
-      <a href="#" class="flex items-center gap-3 text-white">
-        <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-emeraldBrand-500 text-lg shadow-md shadow-emerald-950/20">
-          <i class="fa-solid fa-qrcode"></i>
+      <a href="#" class="flex items-center gap-3 text-white" aria-label="SevkQR Pro ana sayfa">
+        <span class="flex h-11 w-11 items-center justify-center overflow-hidden rounded-xl bg-white/95 p-1.5 shadow-md shadow-emerald-950/20">
+          <img src="sevkqrpro_logo.png" alt="SevkQR Pro logosu" class="logo-mark h-full w-full" />
         </span>
         <span class="text-lg font-extrabold tracking-tight">SevkQR Pro</span>
       </a>
@@ -71,6 +73,7 @@
         <a href="#security" class="transition hover:text-white">Güvenlik</a>
         <a href="#how" class="transition hover:text-white">Nasıl Çalışır?</a>
         <a href="#pricing" class="transition hover:text-white">Fiyatlandırma</a>
+        <a href="#faq" class="transition hover:text-white">SSS</a>
         <a href="#contact" class="rounded-xl bg-white px-4 py-2.5 text-navy-900 transition hover:bg-emeraldBrand-50">İletişim</a>
       </div>
       <a href="#pricing" class="rounded-xl bg-emeraldBrand-500 px-4 py-2.5 text-sm font-bold text-white shadow-sm transition hover:bg-emeraldBrand-600 md:hidden">
@@ -88,21 +91,21 @@
       <div class="mx-auto grid max-w-7xl items-center gap-12 px-5 pb-20 lg:grid-cols-[1.05fr_.95fr] lg:px-8 lg:pb-24">
         <div>
           <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-emeraldBrand-500/30 bg-emeraldBrand-500/10 px-4 py-2 text-sm font-semibold text-emeraldBrand-100">
-            <i class="fa-solid fa-shield-halved text-emeraldBrand-500"></i>
-            Demir çelik sektörü için İDİS entegre otomasyon
+            <i class="fa-solid fa-desktop text-emeraldBrand-500"></i>
+            Lokal çalışan İDİS operasyon otomasyonu
           </div>
           <h1 class="max-w-4xl text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-            İDİS Operasyonlarınızı Saniyeler İçinde Otomatize Edin
+            İDİS Giriş ve Çıkış İşlemlerini Tek Tek Uğraşmadan Tamamlayın
           </h1>
           <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-200 sm:text-xl">
-            Saatler süren manuel etiket okutma devri bitti. SevkQR Pro ile PDF irsaliyelerinizi sürükleyin, bırakın, gerisini yapay zeka destekli otomasyona bırakın.
+            SevkQR Pro, PDF irsaliye ve operasyon belgelerindeki etiket kodlarını tespit eder; İDİS hesabınızla kendi bilgisayarınızdan giriş yaparak mal kabul, mal çıkış ve transit işlemleri otomatik şekilde yürütür.
           </p>
           <div class="mt-9 flex flex-col gap-3 sm:flex-row">
             <a href="#pricing" class="inline-flex items-center justify-center gap-2 rounded-xl bg-emeraldBrand-500 px-6 py-4 text-base font-bold text-white shadow-md shadow-emerald-950/30 transition hover:bg-emeraldBrand-600">
               Hemen Satın Al
               <i class="fa-solid fa-arrow-right"></i>
             </a>
-            <a href="https://drive.google.com/file/d/1IupM5jHtk8KOIzed_c-JzAurmOCjuVxJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 rounded-xl bg-white px-6 py-4 text-base font-bold text-navy-950 shadow-md transition hover:bg-emeraldBrand-50">
+            <a href="https://drive.google.com/file/d/18rPdWb_l8I0WnNQRFsDhvPUWqKm66fNq/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 rounded-xl bg-white px-6 py-4 text-base font-bold text-navy-950 shadow-md transition hover:bg-emeraldBrand-50">
               <i class="fa-solid fa-download"></i>
               Ücretsiz Dene
             </a>
@@ -129,7 +132,7 @@
             <div class="flex gap-3">
               <i class="fa-solid fa-lock mt-1 text-emeraldBrand-500"></i>
               <p>
-                Web tabanlı servislerde aynı IP üzerinden farklı kullanıcıların işlem yapması ve İDİS şifrelerinin internet ortamına girilmesi risk oluşturabilir. SevkQR Pro masaüstü yapısıyla işlemleri firmanızın kendi bilgisayarından ve kendi bağlantınız üzerinden yürütmeye odaklanır.
+                İDİS bilgileriniz harici bir web paneline girilmek zorunda kalmaz. SevkQR Pro, kurum bilgisayarında çalışan masaüstü yaklaşımıyla işlemleri kendi cihazınız ve kendi internet bağlantınız üzerinden yürütmeye odaklanır.
               </p>
             </div>
           </div>
@@ -138,9 +141,14 @@
         <div class="glass rounded-2xl p-4 sm:p-6">
           <div class="rounded-xl bg-white p-4 text-slate-900 shadow-soft sm:p-5">
             <div class="flex items-center justify-between border-b border-slate-100 pb-4">
-              <div>
-                <p class="text-xs font-bold uppercase tracking-wide text-slate-500">SevkQR Pro Panel</p>
-                <h2 class="mt-1 text-lg font-extrabold text-navy-950">PDF İrsaliye Otomasyonu</h2>
+              <div class="flex items-center gap-3">
+                <span class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-xl bg-slate-50 p-1.5 ring-1 ring-slate-100">
+                  <img src="sevkqrpro_logo.png" alt="SevkQR Pro logosu" class="logo-mark h-full w-full" />
+                </span>
+                <div>
+                  <p class="text-xs font-bold uppercase tracking-wide text-slate-500">SevkQR Pro Panel</p>
+                  <h2 class="mt-1 text-lg font-extrabold text-navy-950">İDİS Operasyon Yönetimi</h2>
+                </div>
               </div>
               <span class="rounded-full bg-emeraldBrand-50 px-3 py-1 text-xs font-bold text-emeraldBrand-700">Aktif</span>
             </div>
@@ -149,19 +157,19 @@
               <div class="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-white text-2xl text-emeraldBrand-600 shadow-sm">
                 <i class="fa-solid fa-file-arrow-up"></i>
               </div>
-              <p class="mt-4 text-sm font-bold text-navy-900">PDF irsaliyenizi buraya sürükleyip bırakın</p>
-              <p class="mt-1 text-xs font-medium text-slate-500">Karekodlar saniyeler içinde okunur ve İDİS sistemine işlenir.</p>
+              <p class="mt-4 text-sm font-bold text-navy-900">PDF irsaliyenizi seçin veya sürükleyip bırakın</p>
+              <p class="mt-1 text-xs font-medium text-slate-500">Belgedeki etiket kodları tespit edilir ve seçilen İDİS işlemine hazırlanır.</p>
             </div>
 
             <div class="mt-5 space-y-3">
               <div class="flex items-center justify-between rounded-xl border border-slate-100 bg-slate-50 p-4">
                 <div class="flex items-center gap-3">
                   <span class="flex h-9 w-9 items-center justify-center rounded-lg bg-navy-900 text-white">
-                    <i class="fa-solid fa-barcode"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
                   </span>
                   <div>
-                    <p class="text-sm font-bold text-navy-950">Etiket okuma</p>
-                    <p class="text-xs text-slate-500">PDF içindeki karekodlar taranıyor</p>
+                    <p class="text-sm font-bold text-navy-950">Kod tespiti</p>
+                    <p class="text-xs text-slate-500">PDF içindeki etiket kodları bulunur</p>
                   </div>
                 </div>
                 <i class="fa-solid fa-check-circle text-emeraldBrand-600"></i>
@@ -169,32 +177,44 @@
               <div class="flex items-center justify-between rounded-xl border border-slate-100 bg-slate-50 p-4">
                 <div class="flex items-center gap-3">
                   <span class="flex h-9 w-9 items-center justify-center rounded-lg bg-navy-900 text-white">
-                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <i class="fa-solid fa-right-to-bracket"></i>
                   </span>
                   <div>
-                    <p class="text-sm font-bold text-navy-950">İDİS aktarımı</p>
-                    <p class="text-xs text-slate-500">Mal kabul, mal çıkış veya transit işlem</p>
+                    <p class="text-sm font-bold text-navy-950">İDİS oturumu</p>
+                    <p class="text-xs text-slate-500">Kendi bilgisayarınızdan İDİS'e giriş yapılır</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-check-circle text-emeraldBrand-600"></i>
+              </div>
+              <div class="flex items-center justify-between rounded-xl border border-slate-100 bg-slate-50 p-4">
+                <div class="flex items-center gap-3">
+                  <span class="flex h-9 w-9 items-center justify-center rounded-lg bg-navy-900 text-white">
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                  </span>
+                  <div>
+                    <p class="text-sm font-bold text-navy-950">Otomatik işlem</p>
+                    <p class="text-xs text-slate-500">Mal kabul, çıkış veya transit akışı yürütülür</p>
                   </div>
                 </div>
                 <i class="fa-solid fa-check-circle text-emeraldBrand-600"></i>
               </div>
               <div class="rounded-xl bg-navy-950 p-4 text-white">
                 <div class="flex items-center justify-between">
-                  <p class="text-sm font-bold">İşlem raporu</p>
+                  <p class="text-sm font-bold">İşlem detayı</p>
                   <span class="rounded-full bg-emeraldBrand-500/15 px-3 py-1 text-xs font-bold text-emeraldBrand-100">Başarılı</span>
                 </div>
                 <div class="mt-4 grid grid-cols-3 gap-3 text-center">
                   <div class="rounded-lg bg-white/8 p-3">
-                    <p class="text-xl font-extrabold">100%</p>
-                    <p class="mt-1 text-[11px] text-slate-300">Okuma</p>
+                    <p class="text-xl font-extrabold">7/7</p>
+                    <p class="mt-1 text-[11px] text-slate-300">İşlenen</p>
                   </div>
                   <div class="rounded-lg bg-white/8 p-3">
                     <p class="text-xl font-extrabold">0</p>
-                    <p class="mt-1 text-[11px] text-slate-300">Hata</p>
+                    <p class="mt-1 text-[11px] text-slate-300">Eksik</p>
                   </div>
                   <div class="rounded-lg bg-white/8 p-3">
-                    <p class="text-xl font-extrabold">7/24</p>
-                    <p class="mt-1 text-[11px] text-slate-300">Stabil</p>
+                    <p class="text-xl font-extrabold">Log</p>
+                    <p class="mt-1 text-[11px] text-slate-300">Kayıt</p>
                   </div>
                 </div>
               </div>
@@ -208,44 +228,77 @@
       <div class="mx-auto max-w-7xl px-5 lg:px-8">
         <div class="max-w-3xl">
           <p class="text-sm font-extrabold uppercase tracking-wide text-emeraldBrand-600">Neden SevkQR Pro?</p>
-          <h2 class="mt-3 text-3xl font-extrabold tracking-tight text-navy-950 sm:text-4xl">Depo operasyonlarında manuel barkod okutma yükünü ortadan kaldırır.</h2>
+          <h2 class="mt-3 text-3xl font-extrabold tracking-tight text-navy-950 sm:text-4xl">Depo ve sevkiyat ekipleri için tekrarlı İDİS işlemlerini hızlandırır.</h2>
           <p class="mt-4 text-lg leading-8 text-slate-600">
-            SevkQR Pro, PDF formatındaki yüzlerce sayfalık sevk irsaliyelerini okuyarak İDİS süreçlerinizi hızlı, doğru ve raporlanabilir hale getirir.
+            SevkQR Pro, PDF irsaliyelerdeki etiket kodlarını tespit ederek İDİS üzerinde yapılacak giriş, çıkış ve transit operasyonlarını daha hızlı, düzenli ve takip edilebilir hale getirir.
           </p>
         </div>
 
         <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           <article class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
             <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-emeraldBrand-50 text-xl text-emeraldBrand-600">
-              <i class="fa-solid fa-hand-pointer"></i>
+              <i class="fa-solid fa-file-lines"></i>
             </span>
-            <h3 class="mt-5 text-lg font-extrabold text-navy-950">Sürükle & Bırak İşlem</h3>
-            <p class="mt-3 leading-7 text-slate-600">PDF'i atın, gerisine karışmayın. SevkQR Pro irsaliye içindeki etiketleri ve karekodları otomatik okur.</p>
+            <h3 class="mt-5 text-lg font-extrabold text-navy-950">PDF Kod Tespiti</h3>
+            <p class="mt-3 leading-7 text-slate-600">Operasyon belgesindeki etiket kodlarını bulur ve işlem için düzenli bir liste haline getirir.</p>
           </article>
 
           <article class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
             <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-navy-50 text-xl text-navy-800">
-              <i class="fa-solid fa-link"></i>
+              <i class="fa-solid fa-desktop"></i>
             </span>
-            <h3 class="mt-5 text-lg font-extrabold text-navy-950">%100 İDİS Entegrasyonu</h3>
-            <p class="mt-3 leading-7 text-slate-600">İDİS sistemiyle anlık veri alışverişi yapar; Mal Kabul, Mal Çıkış ve Transit İşlem akışlarını otomatik işler.</p>
+            <h3 class="mt-5 text-lg font-extrabold text-navy-950">Lokal İDİS Girişi</h3>
+            <p class="mt-3 leading-7 text-slate-600">İşlem, firmanızın kendi bilgisayarı ve kendi bağlantısı üzerinden İDİS hesabınızla yürütülür.</p>
           </article>
 
           <article class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
             <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-emeraldBrand-50 text-xl text-emeraldBrand-600">
-              <i class="fa-solid fa-circle-check"></i>
+              <i class="fa-solid fa-route"></i>
             </span>
-            <h3 class="mt-5 text-lg font-extrabold text-navy-950">Sıfır İnsan Hatası</h3>
-            <p class="mt-3 leading-7 text-slate-600">Yanlış veya eksik okutma riskini ortadan kaldırır. Tüm işlem logları ve başarı durumları raporlanır.</p>
+            <h3 class="mt-5 text-lg font-extrabold text-navy-950">Giriş / Çıkış / Transit</h3>
+            <p class="mt-3 leading-7 text-slate-600">Mal kabul, mal çıkış ve transit işlem akışlarını seçilen operasyon türüne göre otomatik ilerletir.</p>
           </article>
 
           <article class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
             <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-navy-50 text-xl text-navy-800">
-              <i class="fa-solid fa-keyboard"></i>
+              <i class="fa-solid fa-clipboard-check"></i>
             </span>
-            <h3 class="mt-5 text-lg font-extrabold text-navy-950">Hızlı Manuel Terminal</h3>
-            <p class="mt-3 leading-7 text-slate-600">İrsaliyesiz işlemler için pratik kod giriş ekranı sunar; depo ekipleri hızlı manuel işlem yapabilir.</p>
+            <h3 class="mt-5 text-lg font-extrabold text-navy-950">İşlem Logları</h3>
+            <p class="mt-3 leading-7 text-slate-600">Dosya/ref, plaka, işlem türü, tarih ve başarı durumu gibi bilgileri işlem detayında gösterir.</p>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white py-20 sm:py-24">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="grid gap-8 lg:grid-cols-[.9fr_1.1fr] lg:items-center">
+          <div>
+            <p class="text-sm font-extrabold uppercase tracking-wide text-emeraldBrand-600">Operasyon Kazancı</p>
+            <h2 class="mt-3 text-3xl font-extrabold tracking-tight text-navy-950 sm:text-4xl">Manuel takip yerine kontrollü otomasyon.</h2>
+            <p class="mt-4 text-lg leading-8 text-slate-600">
+              Amaç barkod üretmek değil; belgede bulunan kodları doğru şekilde yakalayıp İDİS üzerindeki tekrarlı işlemleri personel yükünü azaltacak şekilde tamamlamaktır.
+            </p>
+          </div>
+
+          <div class="grid gap-5 sm:grid-cols-2">
+            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h3 class="text-lg font-extrabold text-navy-950">Manuel Süreçte</h3>
+              <ul class="mt-5 space-y-3 text-sm leading-6 text-slate-600">
+                <li class="flex gap-3"><i class="fa-solid fa-xmark mt-1 text-slate-400"></i><span>Kodlar belge içinde tek tek aranır.</span></li>
+                <li class="flex gap-3"><i class="fa-solid fa-xmark mt-1 text-slate-400"></i><span>Giriş, çıkış ve transit adımları personel tarafından tekrar edilir.</span></li>
+                <li class="flex gap-3"><i class="fa-solid fa-xmark mt-1 text-slate-400"></i><span>Eksik veya yanlış işlem kontrolü zaman alır.</span></li>
+              </ul>
+            </div>
+            <div class="rounded-2xl border border-emeraldBrand-100 bg-emeraldBrand-50 p-6 shadow-glow">
+              <h3 class="text-lg font-extrabold text-navy-950">SevkQR Pro ile</h3>
+              <ul class="mt-5 space-y-3 text-sm leading-6 text-slate-700">
+                <li class="flex gap-3"><i class="fa-solid fa-check mt-1 text-emeraldBrand-600"></i><span>Kodlar belge üzerinden otomatik tespit edilir.</span></li>
+                <li class="flex gap-3"><i class="fa-solid fa-check mt-1 text-emeraldBrand-600"></i><span>İDİS işlemi kendi bilgisayarınızdan otomatik yürütülür.</span></li>
+                <li class="flex gap-3"><i class="fa-solid fa-check mt-1 text-emeraldBrand-600"></i><span>İşlem sonucu ve detayları ekranda takip edilir.</span></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -254,35 +307,35 @@
       <div class="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-[.9fr_1.1fr] lg:items-center lg:px-8">
         <div>
           <p class="text-sm font-extrabold uppercase tracking-wide text-emeraldBrand-400">Masaüstü Güvenliği</p>
-          <h2 class="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">İDİS bilgileriniz üçüncü taraf web ortamına taşınmaz.</h2>
+          <h2 class="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">İDİS operasyonu kendi bilgisayarınızdan yürütülür.</h2>
           <p class="mt-5 text-lg leading-8 text-slate-300">
-            SevkQR Pro, web tabanlı alternatiflerden farklı olarak masaüstü kullanımına göre konumlandırılmıştır. İDİS operasyonları, firmanızın kendi cihazı ve kendi internet bağlantısı üzerinden yürütülür.
+            SevkQR Pro, web tabanlı bir ortak panel mantığı yerine masaüstü kullanımına göre konumlandırılmıştır. Böylece İDİS oturumu, işlem kaynağı ve operasyon kontrolü kurum tarafında kalır.
           </p>
         </div>
 
         <div class="grid gap-5 sm:grid-cols-2">
           <article class="rounded-xl border border-white/10 bg-white/8 p-6 shadow-sm">
             <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-emeraldBrand-500 text-xl text-white">
-              <i class="fa-solid fa-network-wired"></i>
+              <i class="fa-solid fa-user-shield"></i>
             </span>
-            <h3 class="mt-5 text-lg font-extrabold">Aynı IP Riskini Azaltır</h3>
-            <p class="mt-3 leading-7 text-slate-300">Web servislerinde farklı firmaların aynı servis IP'si üzerinden İDİS'e istek göndermesi kanuni ve operasyonel soru işaretleri doğurabilir. SevkQR Pro işlemleri kullanıcının kendi ortamından yürütür.</p>
+            <h3 class="mt-5 text-lg font-extrabold">Harici Web Paneline Bağımlı Değil</h3>
+            <p class="mt-3 leading-7 text-slate-300">İDİS erişim bilgilerinizi başka bir web paneline yazma zorunluluğu oluşturmaz. İşlem akışı yerel masaüstü kullanımına göre ilerler.</p>
           </article>
 
           <article class="rounded-xl border border-white/10 bg-white/8 p-6 shadow-sm">
             <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-emeraldBrand-500 text-xl text-white">
-              <i class="fa-solid fa-user-shield"></i>
+              <i class="fa-solid fa-network-wired"></i>
             </span>
-            <h3 class="mt-5 text-lg font-extrabold">İDİS Şifresi Web'e Girilmez</h3>
-            <p class="mt-3 leading-7 text-slate-300">Kullanıcılar İDİS erişim bilgilerini harici bir web paneline yazmak zorunda kalmaz. Bu yaklaşım, hassas portal bilgilerinin üçüncü taraf internet ortamında dolaşmasını önlemeye yardımcı olur.</p>
+            <h3 class="mt-5 text-lg font-extrabold">Kendi Bağlantınız Üzerinden</h3>
+            <p class="mt-3 leading-7 text-slate-300">İşlemler firmanızın bilgisayarı ve internet bağlantısı üzerinden yürütüldüğü için ortak servis IP yaklaşımına bağlı soru işaretleri azaltılır.</p>
           </article>
 
           <article class="rounded-xl border border-white/10 bg-white/8 p-6 shadow-sm sm:col-span-2">
             <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-white text-xl text-navy-950">
-              <i class="fa-solid fa-desktop"></i>
+              <i class="fa-solid fa-building-shield"></i>
             </span>
             <h3 class="mt-5 text-lg font-extrabold">Kurumsal Kontrol Firmanızda Kalır</h3>
-            <p class="mt-3 leading-7 text-slate-300">Lisanslı masaüstü yapı sayesinde işlem kaynağı, cihaz kontrolü ve operasyon akışı kurum tarafında kalır. Depo ekipleri hızlı otomasyon kazanırken güvenlik politikalarınızdan ödün vermezsiniz.</p>
+            <p class="mt-3 leading-7 text-slate-300">Lisanslı masaüstü yapı sayesinde cihaz kontrolü, kullanım sorumluluğu ve operasyon takibi kurum içinde kalır. Depo ekipleri hızlı otomasyon kazanırken mevcut çalışma düzeniniz korunur.</p>
           </article>
         </div>
       </div>
@@ -301,19 +354,19 @@
           <article class="relative rounded-xl border border-slate-200 bg-slate-50 p-7 shadow-sm">
             <span class="flex h-14 w-14 items-center justify-center rounded-xl bg-navy-950 text-xl font-extrabold text-white shadow-md">1</span>
             <h3 class="mt-6 text-xl font-extrabold text-navy-950">Operasyon Türünü Seçin</h3>
-            <p class="mt-3 leading-7 text-slate-600">Mal Kabul, Mal Çıkış veya Transit İşlem seçeneklerinden ilgili İDİS operasyonunu belirleyin.</p>
+            <p class="mt-3 leading-7 text-slate-600">Mal kabul, mal çıkış veya transit işlem seçeneklerinden ilgili İDİS operasyonunu belirleyin.</p>
           </article>
 
           <article class="relative rounded-xl border border-slate-200 bg-slate-50 p-7 shadow-sm">
             <span class="flex h-14 w-14 items-center justify-center rounded-xl bg-emeraldBrand-500 text-xl font-extrabold text-white shadow-md">2</span>
-            <h3 class="mt-6 text-xl font-extrabold text-navy-950">PDF İrsaliyenizi Yükleyin</h3>
-            <p class="mt-3 leading-7 text-slate-600">Yüzlerce sayfalık PDF sevk irsaliyenizi programa sürükleyip bırakın.</p>
+            <h3 class="mt-6 text-xl font-extrabold text-navy-950">PDF Belgenizi Yükleyin</h3>
+            <p class="mt-3 leading-7 text-slate-600">Program belge içindeki etiket kodlarını tespit eder ve işlem yapılacak listeyi hazırlar.</p>
           </article>
 
           <article class="relative rounded-xl border border-slate-200 bg-slate-50 p-7 shadow-sm">
             <span class="flex h-14 w-14 items-center justify-center rounded-xl bg-navy-950 text-xl font-extrabold text-white shadow-md">3</span>
-            <h3 class="mt-6 text-xl font-extrabold text-navy-950">Arkanıza Yaslanın</h3>
-            <p class="mt-3 leading-7 text-slate-600">Sistem tüm logları, işlem durumlarını ve başarı raporunu size sunar.</p>
+            <h3 class="mt-6 text-xl font-extrabold text-navy-950">İDİS İşlemi Otomatik Tamamlanır</h3>
+            <p class="mt-3 leading-7 text-slate-600">SevkQR Pro kendi bilgisayarınızdan İDİS oturumunu kullanarak seçilen giriş, çıkış veya transit akışını yürütür ve sonucu gösterir.</p>
           </article>
         </div>
       </div>
@@ -324,6 +377,7 @@
         <div class="mx-auto max-w-3xl text-center">
           <p class="text-sm font-extrabold uppercase tracking-wide text-emeraldBrand-600">Fiyatlandırma</p>
           <h2 class="mt-3 text-3xl font-extrabold tracking-tight text-navy-950 sm:text-4xl">Tek ve net kurumsal lisans planı.</h2>
+          <p class="mt-4 text-lg leading-8 text-slate-600">Kurulum, lisans aktivasyonu ve operasyon akışına göre ilk yönlendirme için bizimle iletişime geçebilirsiniz.</p>
         </div>
 
         <div class="mx-auto mt-12 max-w-2xl rounded-2xl border border-slate-200 bg-white p-6 shadow-soft sm:p-8">
@@ -331,10 +385,10 @@
             <div>
               <span class="inline-flex rounded-full bg-emeraldBrand-50 px-4 py-2 text-sm font-extrabold text-emeraldBrand-700">Kurumsal Lisans</span>
               <h3 class="mt-5 text-2xl font-extrabold text-navy-950">SevkQR Pro</h3>
-              <p class="mt-2 text-slate-600">Cihaz başı lisanslama ile tam otomasyon.</p>
+              <p class="mt-2 text-slate-600">Cihaz başı lisanslama ile İDİS operasyon otomasyonu.</p>
             </div>
             <div class="sm:text-right">
-              <p class="text-4xl font-extrabold tracking-tight text-navy-950">30.000 TL</p>
+              <p class="text-4xl font-extrabold tracking-tight text-navy-950">40.000 TL</p>
               <p class="mt-1 text-sm font-semibold text-slate-500">Cihaz başı lisanslama</p>
             </div>
           </div>
@@ -346,11 +400,23 @@
             </div>
             <div class="rounded-xl bg-slate-50 p-4">
               <i class="fa-solid fa-gears text-emeraldBrand-600"></i>
-              <p class="mt-3 font-bold text-navy-950">Tam otomasyon</p>
+              <p class="mt-3 font-bold text-navy-950">Otomatik İDİS akışı</p>
             </div>
             <div class="rounded-xl bg-slate-50 p-4">
               <i class="fa-solid fa-clock text-emeraldBrand-600"></i>
-              <p class="mt-3 font-bold text-navy-950">7/24 stabil çalışma</p>
+              <p class="mt-3 font-bold text-navy-950">İşlem logları</p>
+            </div>
+          </div>
+
+          <div class="mt-8 rounded-xl border border-slate-200 bg-slate-50 p-5">
+            <p class="text-sm font-extrabold uppercase tracking-wide text-slate-500">Paket kapsamında</p>
+            <div class="mt-4 grid gap-3 sm:grid-cols-2">
+              <div class="flex gap-3 text-sm text-slate-700"><i class="fa-solid fa-check mt-0.5 text-emeraldBrand-600"></i><span>Yerel masaüstü kullanım yapısı</span></div>
+              <div class="flex gap-3 text-sm text-slate-700"><i class="fa-solid fa-check mt-0.5 text-emeraldBrand-600"></i><span>PDF belge üzerinden kod tespiti</span></div>
+              <div class="flex gap-3 text-sm text-slate-700"><i class="fa-solid fa-check mt-0.5 text-emeraldBrand-600"></i><span>Mal kabul, çıkış ve transit akışı</span></div>
+              <div class="flex gap-3 text-sm text-slate-700"><i class="fa-solid fa-check mt-0.5 text-emeraldBrand-600"></i><span>İşlem detayı ve başarı raporu</span></div>
+              <div class="flex gap-3 text-sm text-slate-700"><i class="fa-solid fa-check mt-0.5 text-emeraldBrand-600"></i><span>Lisans aktivasyonu</span></div>
+              <div class="flex gap-3 text-sm text-slate-700"><i class="fa-solid fa-check mt-0.5 text-emeraldBrand-600"></i><span>Kurulum desteği</span></div>
             </div>
           </div>
 
@@ -359,11 +425,87 @@
               <i class="fa-brands fa-whatsapp"></i>
               WhatsApp'tan İletişime Geç
             </a>
-            <a href="https://drive.google.com/file/d/1IupM5jHtk8KOIzed_c-JzAurmOCjuVxJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 rounded-xl bg-navy-950 px-6 py-4 text-base font-extrabold text-white shadow-md transition hover:bg-navy-800">
+            <a href="https://drive.google.com/file/d/18rPdWb_l8I0WnNQRFsDhvPUWqKm66fNq/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 rounded-xl bg-navy-950 px-6 py-4 text-base font-extrabold text-white shadow-md transition hover:bg-navy-800">
               <i class="fa-solid fa-download"></i>
               Ücretsiz Dene
             </a>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="bg-white py-20 sm:py-24">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="mx-auto max-w-3xl text-center">
+          <p class="text-sm font-extrabold uppercase tracking-wide text-emeraldBrand-600">Sık Sorulan Sorular</p>
+          <h2 class="mt-3 text-3xl font-extrabold tracking-tight text-navy-950 sm:text-4xl">SevkQR Pro hakkında merak edilenler.</h2>
+          <p class="mt-4 text-lg leading-8 text-slate-600">Kurulumdan kullanıma kadar en çok sorulan başlıkları aşağıda özetledik.</p>
+        </div>
+
+        <div class="mx-auto mt-12 grid max-w-4xl gap-4">
+          <details class="group rounded-xl border border-slate-200 bg-slate-50 p-6 open:bg-white open:shadow-sm">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-extrabold text-navy-950">
+              SevkQR Pro tam olarak ne yapar?
+              <i class="fa-solid fa-chevron-down text-sm text-slate-400 transition group-open:rotate-180"></i>
+            </summary>
+            <p class="mt-4 leading-7 text-slate-600">PDF irsaliye veya operasyon belgesi içindeki etiket kodlarını tespit eder. Ardından İDİS hesabınızla kendi bilgisayarınızdan giriş yaparak mal kabul, mal çıkış veya transit işlem akışını otomatik şekilde ilerletir.</p>
+          </details>
+
+          <details class="group rounded-xl border border-slate-200 bg-slate-50 p-6 open:bg-white open:shadow-sm">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-extrabold text-navy-950">
+              Program barkod veya QR üretir mi?
+              <i class="fa-solid fa-chevron-down text-sm text-slate-400 transition group-open:rotate-180"></i>
+            </summary>
+            <p class="mt-4 leading-7 text-slate-600">SevkQR Pro'nun ana amacı barkod üretmek değildir. Program, belgede bulunan kodları tespit eder ve bu kodlar üzerinden İDİS üzerindeki giriş, çıkış veya transit işlem süreçlerini otomatikleştirir.</p>
+          </details>
+
+          <details class="group rounded-xl border border-slate-200 bg-slate-50 p-6 open:bg-white open:shadow-sm">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-extrabold text-navy-950">
+              İDİS şifrem harici bir web paneline girilir mi?
+              <i class="fa-solid fa-chevron-down text-sm text-slate-400 transition group-open:rotate-180"></i>
+            </summary>
+            <p class="mt-4 leading-7 text-slate-600">Hayır. SevkQR Pro masaüstü kullanımına göre konumlandırılmıştır. İşlem akışı firmanızın kendi bilgisayarında ve kendi bağlantısı üzerinden yürütülür; harici ortak bir web paneline İDİS bilgisi girme zorunluluğu oluşturmaz.</p>
+          </details>
+
+          <details class="group rounded-xl border border-slate-200 bg-slate-50 p-6 open:bg-white open:shadow-sm">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-extrabold text-navy-950">
+              Hangi İDİS işlemleri destekleniyor?
+              <i class="fa-solid fa-chevron-down text-sm text-slate-400 transition group-open:rotate-180"></i>
+            </summary>
+            <p class="mt-4 leading-7 text-slate-600">Temel akış; mal kabul, mal çıkış ve transit işlem operasyonlarını kapsar. Kullanım senaryonuza göre belge formatı ve operasyon adımları demo sırasında birlikte kontrol edilebilir.</p>
+          </details>
+
+          <details class="group rounded-xl border border-slate-200 bg-slate-50 p-6 open:bg-white open:shadow-sm">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-extrabold text-navy-950">
+              Her PDF irsaliye formatını otomatik okur mu?
+              <i class="fa-solid fa-chevron-down text-sm text-slate-400 transition group-open:rotate-180"></i>
+            </summary>
+            <p class="mt-4 leading-7 text-slate-600">Sahada farklı belge ve irsaliye formatları bulunabilir. Bu nedenle en doğru değerlendirme için örnek belgenizle demo/test yapılması önerilir. Uygun formatlarda kod tespiti ve işlem akışı otomatik ilerletilir.</p>
+          </details>
+
+          <details class="group rounded-xl border border-slate-200 bg-slate-50 p-6 open:bg-white open:shadow-sm">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-extrabold text-navy-950">
+              İnternet bağlantısı gerekir mi?
+              <i class="fa-solid fa-chevron-down text-sm text-slate-400 transition group-open:rotate-180"></i>
+            </summary>
+            <p class="mt-4 leading-7 text-slate-600">Program masaüstünde çalışır; ancak İDİS portalına giriş ve işlem yürütme için internet bağlantısı gerekir. İşlemler firmanızın kendi bilgisayarı ve bağlantısı üzerinden yapılır.</p>
+          </details>
+
+          <details class="group rounded-xl border border-slate-200 bg-slate-50 p-6 open:bg-white open:shadow-sm">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-extrabold text-navy-950">
+              Lisanslama nasıl yapılır?
+              <i class="fa-solid fa-chevron-down text-sm text-slate-400 transition group-open:rotate-180"></i>
+            </summary>
+            <p class="mt-4 leading-7 text-slate-600">SevkQR Pro cihaz başı lisanslama modeliyle sunulur. Kurulum, lisans aktivasyonu ve kullanım başlangıcı için WhatsApp veya e-posta üzerinden iletişime geçebilirsiniz.</p>
+          </details>
+
+          <details class="group rounded-xl border border-slate-200 bg-slate-50 p-6 open:bg-white open:shadow-sm">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-extrabold text-navy-950">
+              Demo veya deneme sürümüne nasıl ulaşabilirim?
+              <i class="fa-solid fa-chevron-down text-sm text-slate-400 transition group-open:rotate-180"></i>
+            </summary>
+            <p class="mt-4 leading-7 text-slate-600">Sayfadaki “Ücretsiz Dene” butonundan deneme dosyasına ulaşabilirsiniz. Kurulum ve uygun belge formatı kontrolü için WhatsApp üzerinden destek alabilirsiniz.</p>
+          </details>
         </div>
       </div>
     </section>
@@ -373,7 +515,7 @@
         <div>
           <p class="text-sm font-extrabold uppercase tracking-wide text-emeraldBrand-400">İletişim</p>
           <h2 class="mt-3 text-3xl font-extrabold tracking-tight">Kurulum ve Lisanslama İçin Bize Ulaşın</h2>
-          <p class="mt-3 max-w-2xl leading-7 text-slate-300">SevkQR Pro ile İDİS operasyonlarınızı hızlı, hatasız ve raporlanabilir hale getirin.</p>
+          <p class="mt-3 max-w-2xl leading-7 text-slate-300">SevkQR Pro ile İDİS giriş, çıkış ve transit operasyonlarınızı kendi bilgisayarınızdan daha hızlı ve kontrollü şekilde yürütün.</p>
         </div>
         <div class="flex flex-col gap-3 sm:flex-row">
           <a href="https://wa.me/905370633196?text=SevkQR%20Pro%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-3 rounded-xl bg-emeraldBrand-500 px-6 py-4 font-extrabold text-white shadow-md shadow-emerald-950/30 transition hover:bg-emeraldBrand-600">
@@ -392,7 +534,7 @@
   <footer class="border-t border-slate-200 bg-white py-7">
     <div class="mx-auto flex max-w-7xl flex-col gap-3 px-5 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between lg:px-8">
       <p class="font-semibold text-navy-950">SevkQR Pro</p>
-      <p>Demir çelik sektörü için İDİS entegre otomasyon yazılımı.</p>
+      <p>Demir çelik sektörü için İDİS operasyon yönetimi yazılımı.</p>
     </div>
   </footer>
 </body>
